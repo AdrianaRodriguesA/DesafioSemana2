@@ -1,0 +1,144 @@
+html body{
+    margin: 0%;
+}
+body{
+    font-family: helvetica;
+    background-color: rgb(200, 250, 200);
+    background-size: cover;
+    text-shadow: 1px 1px 0 #30382d;
+    color: rgb(237, 219, 156);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin: 0;
+    padding: 25px 30px;
+    font-size: 40px;
+}
+header .container{
+    display: flex; 
+    position: fixed;
+    width: 100%;
+    background-color: rgb(237, 219, 156);
+    color: rgb(34, 138, 34);
+    font-size: large;
+    top: 0
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40%;
+    padding: 0 6%;
+}
+header a{
+    text-decoration: none;
+    color: rgb(34, 138, 34);
+    font-weight: bold;
+    padding: 5px 30px;
+}
+header a:hover{
+    background-color: rgb(27, 98, 27, 0.3);
+    color: beige;
+    border-radius: 15px;
+}
+h1{
+    margin-left: 10px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 0 #30382d;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 0 #30382d;
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+h4{
+    color: white;
+    font-size: 50px;
+}
+h5{
+    color: white;
+    font-size: 17px;
+    text-shadow: 3px 3px 0 #30382d;
+}
+.caixa1{
+    display: flex;
+    justify-content: center;
+}    
+.social{
+    text-align: center;
+    margin: 40px 50px;
+    margin-top: 60px;
+}
+.obj1{ background-color: rgb(10, 245, 30);}
+
+.obj2{ background-color: rgb(20, 200, 50);}
+
+.obj3{ background-color: rgb(30, 180, 70);}
+
+.obj4{ background-color: rgb(112, 245, 72);}
+
+.obj5{ background-color: rgb(93, 199, 72);}
+
+.obj6{ background-color: rgb(60, 185, 93);}
+
+.obj7{ background-color: rgb(9, 164, 51);}
+
+.obj8{ background-color: rgb(44, 134, 68);}
+
+.obj9{ background-color: rgb(23, 133, 53);}
+
+#obj123{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#obj456{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#obj789{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.caixa2{
+    display: flex;
+    justify-content: center;
+}
+.abcd{
+    padding: 10px 20px;
+    text-align:end;
+}  
+.botao{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 6px 9px 15px rgb(38, 35, 35);
+    border: solid rgb(62, 100, 60);
+    padding: 30px 70px;
+}
+.botao h3:hover{
+    background-color: rgba(246, 251, 246, 0.043);
+    color: rgb(27, 98, 27);
+}
+.botao h4:hover{
+    background-color: rgba(246, 251, 246, 0.043);
+    color: rgb(27, 98, 27);
+}
+.objetivo{
+    margin-left: 25%;
+    margin-right: 35%;
+    background-color: rgb(34, 138, 34);
+    padding: 40px 30px;
+}
+footer{
+    background-color: rgb(238, 217, 148);
+    color: rgb(34, 138, 34);
+    padding: 5px 40px;
+}
